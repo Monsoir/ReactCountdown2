@@ -1,0 +1,19 @@
+@import url('../assets/fonts.css');
+
+.unit {
+  color: #1abc9c;
+  font-size: 45px;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: 40;
+  text-align: center;
+}
+
+@media screen and (max-device-width: 700px){
+  .unit {
+    color: #1abc9c;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 40;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+@import url('./app/assets/fonts.css');
+
+.description {
+  margin: 10px;
+  font-size: 50px;
+  font-family: 'Roboto', serif;
+  text-align: center;
+  color: #D2B48C;
+  align-self: center;
+}
+
+.digitSection {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #34495e;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

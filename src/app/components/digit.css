@@ -1,0 +1,19 @@
+@import url('../assets/fonts.css');
+
+.digit {
+  color: #ecf0f1;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Roboto', serif;
+  text-align: center;
+}
+
+@media screen and (max-device-width: 700px){
+  .digit {
+    color: #ecf0f1;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', serif;
+    text-align: center;
+  }
+}

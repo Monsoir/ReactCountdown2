@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+@media screen and (max-device-width: 700px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+}
